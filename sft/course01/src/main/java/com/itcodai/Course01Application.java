@@ -10,6 +10,7 @@ public class Course01Application {
         //碍事会哦哦
         
         SpringApplication.run(Course01Application.class, args);
+        //阿斯顿法国的身份
     }
 
 }

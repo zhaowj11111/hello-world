@@ -1,0 +1,18 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8084
+logging:
+  config: logback-spring.xml
+  level:
+    com.itcodai.course03.dao: trace
+# 配置微服务的地址
+url:
+  # 订单微服务的地址
+  orderUrl: http://localhost:8008
+  # 用户微服务的地址
+  userUrl: http://localhost:8009
+  # 购物车微服务的地址
+  shoppingUrl: http://localhost:8010

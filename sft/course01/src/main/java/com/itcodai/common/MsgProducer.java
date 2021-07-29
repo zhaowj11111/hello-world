@@ -19,6 +19,9 @@ public class MsgProducer {
 
     public void sendMessage(Destination destination, String msg){
         jmsMessagingTemplate.convertAndSend(destination,msg);
+        /**
+         * 撒的发多少
+         */
     }
 
 }

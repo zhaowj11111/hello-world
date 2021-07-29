@@ -7,10 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Course01Application {
 
     public static void main(String[] args) {
-        //123
         SpringApplication.run(Course01Application.class, args);
-        //阿斯顿法国的身份
-        //阿斯顿法国的身份
+        //健康健康快乐
     }
 
 }

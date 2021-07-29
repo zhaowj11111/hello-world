@@ -18,10 +18,7 @@ public class MsgProducer {
     private JmsMessagingTemplate jmsMessagingTemplate;
 
     public void sendMessage(Destination destination, String msg){
-        //随便添加电视
         jmsMessagingTemplate.convertAndSend(destination,msg);
-        //随便添加电视
-        //随便添加电视
     }
 
 }
